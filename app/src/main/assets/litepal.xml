@@ -1,0 +1,14 @@
+<litepal>
+    <dbname value="rebuild" />
+    <version value="8" />
+
+    <list>
+        <mapping class="com.yunna.cc.ingore.bean.DailyForecastBean" />
+        <mapping class="com.yunna.cc.ingore.bean.HourlyForecastBean" />
+        <mapping class="com.yunna.cc.ingore.bean.LocationBean" />
+        <mapping class="com.yunna.cc.ingore.bean.NowWeatherBean" />
+        <mapping class="com.yunna.cc.ingore.bean.AirSupportBean" />
+        <mapping class="com.yunna.cc.ingore.bean.LifeAdviceBean" />
+    </list>
+
+</litepal>

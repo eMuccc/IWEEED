@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="105dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/rlv_life_idea_advice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <com.liys.view.WaterWaveProView
+        android:id="@+id/rlv_life_idea_speed360"
+        android:layout_width="60dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        app:light_color="@color/green"
+        app:light_show="true"
+        app:progress_color="@color/teal_200"
+        app:progress_color_background="@color/teal_700"
+        app:progress_max="100"
+        app:progress_size="44dp"
+        app:progress_value="50"
+        app:stroke_color="@color/teal_700"
+        app:stroke_show="true"
+        app:water_wave_height="5dp"
+        app:water_wave_speed="2"
+        app:water_wave_width="20dp" />
+    <TextView
+        android:id="@+id/rlv_life_idea_level"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:text="123"
+        android:gravity="center_horizontal"
+        android:textSize="11sp"/>
+</LinearLayout>

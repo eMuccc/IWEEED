@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--白色风车-->
+    <declare-styleable name="WhiteWindmills">
+        <attr name="windColor" format="reference|color" />
+    </declare-styleable>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <color name="transparent">#1E605F5F</color>
+    <color name="transparentReal">#0000</color>
+    <color name="cardbg">#79FFFFFF</color>
+    <declare-styleable name="WeatherView">
+        <attr name="msrc" format="reference" />
+    </declare-styleable>
+</resources>

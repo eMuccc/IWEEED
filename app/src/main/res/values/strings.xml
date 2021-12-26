@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">IWEED!</string>
+    <string name="iweed">IWeed</string>
+    <string name="created_by_emuc">Created By eMuc. 2021/12/22</string>
+    <string name="log">本软件一切数据皆由和风天气提供</string>
+    <string name="he">数据源自和风天气</string>
+    <string name="_00_00">00:00 更新</string>
+    <string name="c">°C</string>
+    <string name="_0_0">0°/0°</string>
+    <string name="point_point">Point · Point</string>
+    <string name="ma">🐎🐎🐎</string>
+    <string name="_0">0</string>
+    <string name="pm2_5">PM2.5</string>
+    <string name="pm10">PM10</string>
+    <string name="co">CO</string>
+    <string name="no2">NO2</string>
+    <string name="o3">O3</string>
+    <string name="so2">SO2</string>
+    <string name="sd">湿度</string>
+    <string name="yl">云量</string>
+    <string name="js">降水量</string>
+    <string name="dqy">大气压</string>
+    <string name="njd">能见度</string>
+    <string name="ldwd">露点温度</string>
+</resources>

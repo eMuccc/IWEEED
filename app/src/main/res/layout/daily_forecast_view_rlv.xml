@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="135dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    app:cardCornerRadius="15dp"
+    android:elevation="1dp"
+    app:cardMaxElevation="2dp"
+    android:layout_gravity="center_vertical"
+    android:layout_marginTop="8dp"
+    app:cardBackgroundColor="#FFE">
+
+    <com.yunna.cc.ingore.view.WeatherView
+        android:id="@+id/otherBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/daily_forecast_date"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/daily_forecast_text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:scaleY="0.95"
+            android:scaleX="0.95"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/daily_forecast_temp"
+            android:textSize="16sp"
+            android:gravity="center"/>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
